@@ -1,0 +1,90 @@
+ext {
+
+    compileSdkVer = 25
+    buildToolsVer = '25.0.2'
+    minSdkVer = 15
+    targetSdkVer = 25
+
+    kotlinVersion = '1.1-M04'
+    supportLibVer = '25.1.0'
+    playServicesVer = '10.0.1'
+}
+
+ext.plugin = [
+        gradleBuildTools       : 'com.android.tools.build:gradle:2.2.3',
+        gradleRetroLambda      : 'me.tatarka:gradle-retrolambda:3.4.0',
+        lombok                 : 'me.tatarka.retrolambda.projectlombok:lombok.ast:0.2.3.a2',
+        androidApt             : 'com.neenbedankt.gradle.plugins:android-apt:1.8',
+        hockeyApp              : 'com.github.kibotu:gradle-hockeyapp-plugin:3.4.5',
+        rocketLauncher         : 'com.cesarferreira:android-rocket-launcher:0.2.3',
+        dexcountGradle         : 'com.getkeepsafe.dexcount:dexcount-gradle-plugin:0.6.1',
+        mavenGradle            : 'com.github.dcendents:android-maven-gradle-plugin:1.5',
+        kotlinAndroidExtensions: "org.jetbrains.kotlin:kotlin-android-extensions:$kotlinVersion",
+        kotlinGradle           : "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion",
+        fabricTools            : 'io.fabric.tools:gradle:1.22.0'
+]
+
+ext.libs = [
+        kotlin                       : "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion",
+        multidex                     : 'com.android.support:multidex:1.0.1',
+        supportAnnotations           : "com.android.support:support-annotations:$supportLibVer",
+        supportV4                    : "com.android.support:support-v4:$supportLibVer",
+        supportV13                   : "com.android.support:support-v13:$supportLibVer",
+        appcombat                    : "com.android.support:appcompat-v7:$supportLibVer",
+        cardview                     : "com.android.support:cardview-v7:$supportLibVer",
+        recyclerview                 : "com.android.support:recyclerview-v7:$supportLibVer",
+        design                       : "com.android.support:design:$supportLibVer",
+        playServicesMaps             : "com.google.android.gms:play-services-maps:$playServicesVer",
+        playServicesLocation         : "com.google.android.gms:play-services-location:$playServicesVer",
+        playServicesAnalytics        : "com.google.android.gms:play-services-analytics:$playServicesVer",
+        commonUtils                  : 'com.github.kibotu:common.android.utils:0.7.2',
+        deviceInfo                   : 'com.github.kibotu:net.kibotu.android.deviceinfo:1.2.1',
+        recyclerViewPresenter        : 'com.github.kibotu:RecyclerViewPresenter:1.4.1',
+        googlePlayForceUpdate        : 'com.github.kibotu:GooglePlayForceUpdate:1.0.8',
+        timeBomb                     : 'com.github.kibotu:TimeBomb:1.1.0',
+        bloodHound                   : 'com.github.kibotu:BloodHound:1.0.5',
+        connectionBuddy              : 'com.zplesac:connectionbuddy:1.4.0',
+        butterknife                  : 'com.jakewharton:butterknife:8.4.0',
+        butterknifeCompiler          : 'com.jakewharton:butterknife-compiler:8.4.0',
+        calligraphy                  : 'uk.co.chrisjenx:calligraphy:2.2.0',
+        permissionDispatcher         : 'com.github.hotchemi:permissionsdispatcher:2.3.0',
+        permissionDispatcherProcessor: 'com.github.hotchemi:permissionsdispatcher-processor:2.3.0',
+        parceler                     : 'org.parceler:parceler-api:1.1.6',
+        parcelerProcessor            : 'org.parceler:parceler:1.1.6',
+        joda                         : 'net.danlew:android.joda:2.9.5',
+        shareIntentBuilder           : 'com.github.kibotu:ShareIntentBuilder:v0.0.3',
+        smartLocation                : 'io.nlopez.smartlocation:library:3.2.7',
+        materialdrawer               : 'com.mikepenz:materialdrawer:5.8.1',
+        markdownview                 : 'com.mukesh:markdownview:1.0.0',
+        rxmarkdown                   : 'com.yydcdut:rxmarkdown:0.0.5',
+        stetho                       : 'com.facebook.stetho:stetho:1.3.1',
+        stethoOkHttp3                : 'com.facebook.stetho:stetho-okhttp3:1.3.1',
+        stethoJsRhino                : 'com.facebook.stetho:stetho-js-rhino:1.3.1',
+        crashlytics                  : 'com.crashlytics.sdk.android:crashlytics:2.6.5',
+        processPhoenix               : 'com.jakewharton:process-phoenix:1.1.0',
+        circleIndicator              : 'me.relex:circleindicator:1.2.2@aar',
+        smarttablayoutLib            : 'com.ogaclejapan.smarttablayout:library:1.6.1@aar',
+        smartTablayoutUtils          : 'com.ogaclejapan.smarttablayout:utils-v4:1.6.1@aar',
+        fragmentViewpager            : 'com.sbrukhanda.fragmentviewpager:fragmentviewpager:1.0.0',
+        viewpagerTransformers        : 'com.eftimoff:android-viewpager-transformers:1.0.1@aar',
+        guava                        : 'com.google.guava:guava:20.0'
+]
+
+ext.testLibs = [
+        junit                     : 'junit:junit:4.12',
+        robolectric               : 'org.robolectric:robolectric:3.2-SNAPSHOT',
+        robolectricShadowsMultidex: 'org.robolectric:shadows-multidex:3.2-SNAPSHOT',
+        robolectricResources      : 'org.robolectric:robolectric-resources:3.2-SNAPSHOT',
+        robolectricUtils          : 'org.robolectric:robolectric-utils:3.2-SNAPSHOT',
+        robolectricAnnotations    : 'org.robolectric:robolectric-annotations:3.2-SNAPSHOT',
+        robolectricShadowsCore    : 'org.robolectric:shadows-core:3.2-SNAPSHOT',
+        khronos                   : 'org.khronos:opengl-api:gl1.1-android-2.1_r1',
+]
+
+ext.androidTestLibs = [
+        espressoCore: 'com.android.support.test.espresso:espresso-core:2.2.2'
+]
+
+ext.configs = [
+        retrolambdaConfigLib: 'net.orfjackal.retrolambda:retrolambda:2.3.0'
+]
