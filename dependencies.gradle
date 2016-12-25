@@ -44,6 +44,7 @@ ext.libs = [
         timeBomb                     : 'com.github.kibotu:TimeBomb:1.1.0',
         bloodHound                   : 'com.github.kibotu:BloodHound:1.0.5',
         connectionBuddy              : 'com.zplesac:connectionbuddy:1.4.0',
+        kotterknife                  : 'com.jakewharton:kotterknife:0.1.0-SNAPSHOT',
         butterknife                  : 'com.jakewharton:butterknife:8.4.0',
         butterknifeCompiler          : 'com.jakewharton:butterknife-compiler:8.4.0',
         calligraphy                  : 'uk.co.chrisjenx:calligraphy:2.2.0',
@@ -67,7 +68,8 @@ ext.libs = [
         smartTablayoutUtils          : 'com.ogaclejapan.smarttablayout:utils-v4:1.6.1@aar',
         fragmentViewpager            : 'com.sbrukhanda.fragmentviewpager:fragmentviewpager:1.0.0',
         viewpagerTransformers        : 'com.eftimoff:android-viewpager-transformers:1.0.1@aar',
-        guava                        : 'com.google.guava:guava:20.0'
+        guava                        : 'com.google.guava:guava:20.0',
+        preferator                   : 'com.sloydev:preferator:1.0.0'
 ]
 
 ext.testLibs = [
