@@ -54,7 +54,7 @@ ext.libs = [
         parcelerProcessor            : 'org.parceler:parceler:1.1.6',
         joda                         : 'net.danlew:android.joda:2.9.5',
         shareIntentBuilder           : 'com.github.kibotu:ShareIntentBuilder:v0.0.3',
-        smartLocation                : 'io.nlopez.smartlocation:library:3.2.7',
+        smartLocation                : 'io.nlopez.smartlocation:library:3.2.9',
         materialdrawer               : 'com.mikepenz:materialdrawer:5.8.1',
         markdownview                 : 'com.mukesh:markdownview:1.0.0',
         rxmarkdown                   : 'com.yydcdut:rxmarkdown:0.0.5',
