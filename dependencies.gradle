@@ -70,7 +70,10 @@ ext.libs = [
         fragmentViewpager            : 'com.sbrukhanda.fragmentviewpager:fragmentviewpager:1.0.0',
         viewpagerTransformers        : 'com.eftimoff:android-viewpager-transformers:1.0.1@aar',
         guava                        : 'com.google.guava:guava:20.0',
-        preferator                   : 'com.sloydev:preferator:1.0.0'
+        preferator                   : 'com.sloydev:preferator:1.0.0',
+        recyclerviewAnimators        : 'jp.wasabeef:recyclerview-animators:2.2.3',
+        androidSnowfall              : 'com.github.jetradarmobile:android-snowfall:1.1.0',
+        googleMapsRipplEeffect       : 'com.github.aarsy.googlemapsrippleeffect:googlemapsrippleeffect:1.0.2'
 ]
 
 ext.testLibs = [
