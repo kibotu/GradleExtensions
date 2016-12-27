@@ -5,7 +5,8 @@ ext {
     minSdkVer = 15
     targetSdkVer = 25
 
-    kotlinVersion = '1.1-M04'
+    // kotlinVersion = '1.1-M04'
+    kotlinVersion = '1.0.6'
     supportLibVer = '25.1.0'
     playServicesVer = '10.0.1'
 }
