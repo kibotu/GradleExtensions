@@ -73,7 +73,9 @@ ext.libs = [
         preferator                   : 'com.sloydev:preferator:1.0.0',
         recyclerviewAnimators        : 'jp.wasabeef:recyclerview-animators:2.2.3',
         androidSnowfall              : 'com.github.jetradarmobile:android-snowfall:1.1.0',
-        googleMapsRipplEeffect       : 'com.github.aarsy.googlemapsrippleeffect:googlemapsrippleeffect:1.0.2'
+        googleMapsRipplEeffect       : 'com.github.aarsy.googlemapsrippleeffect:googlemapsrippleeffect:1.0.2',
+        jellyToggleButton            : 'com.nightonke:jellytogglebutton:1.0.2'
+
 ]
 
 ext.testLibs = [
