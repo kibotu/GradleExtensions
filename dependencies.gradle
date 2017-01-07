@@ -36,6 +36,8 @@ ext.libs = [
         recyclerview                 : "com.android.support:recyclerview-v7:$supportLibVer",
         design                       : "com.android.support:design:$supportLibVer",
         playServicesMaps             : "com.google.android.gms:play-services-maps:$playServicesVer",
+        playServicesPlaces           : "com.google.android.gms:play-services-places:$playServicesVer",
+        playServicesNearby           : "com.google.android.gms:play-services-nearby:$playServicesVer",
         playServicesLocation         : "com.google.android.gms:play-services-location:$playServicesVer",
         playServicesAnalytics        : "com.google.android.gms:play-services-analytics:$playServicesVer",
         commonUtils                  : 'com.github.kibotu:common.android.utils:0.7.2',
@@ -73,7 +75,7 @@ ext.libs = [
         preferator                   : 'com.sloydev:preferator:1.0.0',
         recyclerviewAnimators        : 'jp.wasabeef:recyclerview-animators:2.2.5',
         androidSnowfall              : 'com.github.jetradarmobile:android-snowfall:1.1.0',
-        googleMapsRipplEeffect       : 'com.github.aarsy.googlemapsrippleeffect:googlemapsrippleeffect:1.0.2',
+        googleMapsRipplEffect       : 'com.github.aarsy.googlemapsrippleeffect:googlemapsrippleeffect:1.0.2',
         jellyToggleButton            : 'com.nightonke:jellytogglebutton:1.0.2',
         currencyEditText             : 'com.github.blackcat27:library:1.4.4-SNAPSHOT'
 
