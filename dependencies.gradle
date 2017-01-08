@@ -22,7 +22,8 @@ ext.plugin = [
         mavenGradle            : 'com.github.dcendents:android-maven-gradle-plugin:1.5',
         kotlinAndroidExtensions: "org.jetbrains.kotlin:kotlin-android-extensions:$kotlinVersion",
         kotlinGradle           : "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion",
-        fabricTools            : 'io.fabric.tools:gradle:1.22.0'
+        fabricTools            : 'io.fabric.tools:gradle:1.22.0',
+        gms                    : 'com.google.gms:google-services:3.0.0'
 ]
 
 ext.libs = [
@@ -75,9 +76,10 @@ ext.libs = [
         preferator                   : 'com.sloydev:preferator:1.0.0',
         recyclerviewAnimators        : 'jp.wasabeef:recyclerview-animators:2.2.5',
         androidSnowfall              : 'com.github.jetradarmobile:android-snowfall:1.1.0',
-        googleMapsRipplEffect       : 'com.github.aarsy.googlemapsrippleeffect:googlemapsrippleeffect:1.0.2',
+        googleMapsRipplEffect        : 'com.github.aarsy.googlemapsrippleeffect:googlemapsrippleeffect:1.0.2',
         jellyToggleButton            : 'com.nightonke:jellytogglebutton:1.0.2',
-        currencyEditText             : 'com.github.blackcat27:library:1.4.4-SNAPSHOT'
+        currencyEditText             : 'com.github.blackcat27:library:1.4.4-SNAPSHOT',
+        brainTree                    : 'com.braintreepayments.api:drop-in:3.+'
 
 ]
 
