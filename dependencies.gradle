@@ -85,12 +85,12 @@ ext.libs = [
 
 ext.testLibs = [
         junit                     : 'junit:junit:4.12',
-        robolectric               : 'org.robolectric:robolectric:3.2-SNAPSHOT',
-        robolectricShadowsMultidex: 'org.robolectric:shadows-multidex:3.2-SNAPSHOT',
-        robolectricResources      : 'org.robolectric:robolectric-resources:3.2-SNAPSHOT',
-        robolectricUtils          : 'org.robolectric:robolectric-utils:3.2-SNAPSHOT',
-        robolectricAnnotations    : 'org.robolectric:robolectric-annotations:3.2-SNAPSHOT',
-        robolectricShadowsCore    : 'org.robolectric:shadows-core:3.2-SNAPSHOT',
+        robolectric               : 'org.robolectric:robolectric:3.2.1',
+        robolectricShadowsMultidex: 'org.robolectric:shadows-multidex:3.2.1',
+        robolectricResources      : 'org.robolectric:robolectric-resources:3.2.1',
+        robolectricUtils          : 'org.robolectric:robolectric-utils:3.2.1',
+        robolectricAnnotations    : 'org.robolectric:robolectric-annotations:3.2.1',
+        robolectricShadowsCore    : 'org.robolectric:shadows-core:3.2.1',
         khronos                   : 'org.khronos:opengl-api:gl1.1-android-2.1_r1',
 ]
 
