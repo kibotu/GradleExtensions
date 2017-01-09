@@ -41,6 +41,8 @@ ext.libs = [
         playServicesNearby           : "com.google.android.gms:play-services-nearby:$playServicesVer",
         playServicesLocation         : "com.google.android.gms:play-services-location:$playServicesVer",
         playServicesAnalytics        : "com.google.android.gms:play-services-analytics:$playServicesVer",
+        playServicesGcm              : "com.google.android.gms:play-services-gcm:$playServicesVer",
+        playServicesAds              : "com.google.android.gms:play-services-ads:$playServicesVer",
         commonUtils                  : 'com.github.kibotu:common.android.utils:0.7.2',
         deviceInfo                   : 'com.github.kibotu:net.kibotu.android.deviceinfo:1.2.1',
         recyclerViewPresenter        : 'com.github.kibotu:RecyclerViewPresenter:1.4.1',
@@ -81,7 +83,8 @@ ext.libs = [
         currencyEditText             : 'com.github.blackcat27:library:1.4.4-SNAPSHOT',
         brainTree                    : 'com.braintreepayments.api:drop-in:3.+',
         facebook                     : 'com.facebook.android:facebook-android-sdk:4.+',
-        fastGcm                      : 'com.github.iammert:FastGCM:1.2'
+        //fastGcm                      : 'com.github.iammert:FastGCM:1.2',
+        fastGcm                      : 'com.github.kibotu:FastGCM:1.4.3'
 ]
 
 ext.testLibs = [
