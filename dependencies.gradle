@@ -5,8 +5,7 @@ ext {
     minSdkVer = 15
     targetSdkVer = 25
 
-    // kotlinVersion = '1.1-M04'
-    kotlinVersion = '1.0.6'
+    kotlinVersion = '1.1.0-beta-17'
     supportLibVer = '25.1.0'
     playServicesVer = '10.0.1'
 }
@@ -23,7 +22,8 @@ ext.plugin = [
         kotlinAndroidExtensions: "org.jetbrains.kotlin:kotlin-android-extensions:$kotlinVersion",
         kotlinGradle           : "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion",
         fabricTools            : 'io.fabric.tools:gradle:1.22.0',
-        gms                    : 'com.google.gms:google-services:3.0.0'
+        gms                    : 'com.google.gms:google-services:3.0.0',
+        poeditor               : 'be.lukin.poeditor:gradle:0.3.3'
 ]
 
 ext.libs = [
@@ -49,17 +49,19 @@ ext.libs = [
         googlePlayForceUpdate        : 'com.github.kibotu:GooglePlayForceUpdate:1.0.8',
         timeBomb                     : 'com.github.kibotu:TimeBomb:1.1.0',
         bloodHound                   : 'com.github.kibotu:BloodHound:1.0.5',
+        openAndroidSSLWrapper        : 'com.github.kibotu:Open-Android-SSL-Wrapper:1.0.7',
+        androidAnimationsActions     : 'com.github.kibotu:AndroidAnimationsActions:1.0.7',
+        urlShortener                 : 'com.github.kibotu:UrlShortener:1.0.7',
+        //fastGcm                      : 'com.github.iammert:FastGCM:1.2',
+        fastGcm                      : 'com.github.kibotu:FastGCM:1.4.3',
+        shareIntentBuilder           : 'com.github.kibotu:ShareIntentBuilder:v0.0.3',
         connectionBuddy              : 'com.zplesac:connectionbuddy:1.4.0',
-        kotterknife                  : 'com.jakewharton:kotterknife:0.1.0-SNAPSHOT',
-        butterknife                  : 'com.jakewharton:butterknife:8.4.0',
-        butterknifeCompiler          : 'com.jakewharton:butterknife-compiler:8.4.0',
         calligraphy                  : 'uk.co.chrisjenx:calligraphy:2.2.0',
         permissionDispatcher         : 'com.github.hotchemi:permissionsdispatcher:2.3.0',
         permissionDispatcherProcessor: 'com.github.hotchemi:permissionsdispatcher-processor:2.3.0',
         parceler                     : 'org.parceler:parceler-api:1.1.6',
         parcelerProcessor            : 'org.parceler:parceler:1.1.6',
         joda                         : 'net.danlew:android.joda:2.9.5',
-        shareIntentBuilder           : 'com.github.kibotu:ShareIntentBuilder:v0.0.3',
         smartLocation                : 'io.nlopez.smartlocation:library:3.2.9',
         materialdrawer               : 'com.mikepenz:materialdrawer:5.8.1',
         markdownview                 : 'com.mukesh:markdownview:1.0.0',
@@ -83,13 +85,23 @@ ext.libs = [
         currencyEditText             : 'com.github.blackcat27:library:1.4.4-SNAPSHOT',
         brainTree                    : 'com.braintreepayments.api:drop-in:3.+',
         facebook                     : 'com.facebook.android:facebook-android-sdk:4.+',
-        //fastGcm                      : 'com.github.iammert:FastGCM:1.2',
-        fastGcm                      : 'com.github.kibotu:FastGCM:1.4.3',
+        converterSimpleXml           : 'com.squareup.retrofit2:converter-simplexml:2.1.0',
         okhttp3                      : 'com.squareup.okhttp3:okhttp:3.5.0',
         okhttp3LoggingInterceptor    : 'com.squareup.okhttp3:logging-interceptor:3.5.0',
+        javawriter                   : 'com.squareup:javawriter:2.5.1',
+        kotterknife                  : 'com.jakewharton:kotterknife:0.1.0-SNAPSHOT',
+        butterknife                  : 'com.jakewharton:butterknife:8.4.0',
+        butterknifeCompiler          : 'com.jakewharton:butterknife-compiler:8.4.0',
+        nineoldandroids              : 'com.nineoldandroids:library:2.4.0',
         realm                        : 'io.realm:realm:0.69.0',
         realmAnnotationsProcessor    : 'io.realm:realm-annotations-processor:0.69.0',
-        javawriter                   : 'com.squareup:javawriter:2.5.1'
+        pubnub                       : 'com.pubnub:pubnub:4.2.0',
+        wowoViewPager                : 'com.nightonke:wowoviewpager:1.0.2',
+        numberPicker                 : 'com.shawnlin:number-picker:1.0.1',
+        adjust                       : 'com.adjust.sdk:adjust-android:4.10.2',
+        // text morphing
+        htextview                    : 'hanks.xyz:htextview-library:0.1.5',
+        sweetalert                   : 'cn.pedant.sweetalert:library:1.3'
 ]
 
 ext.testLibs = [
@@ -103,7 +115,8 @@ ext.testLibs = [
         khronos                   : 'org.khronos:opengl-api:gl1.1-android-2.1_r1',
         spek                      : 'org.jetbrains.spek:spek-api:1.1.0-beta3',
         mockito                   : 'com.nhaarman:mockito-kotlin:1.1.0',
-        powermock                 : 'org.powermock:powermock:1.6.6'
+        powermock                 : 'org.powermock:powermock:1.6.6',
+        truth                     : 'com.google.truth:truth:0.31'
 ]
 
 ext.androidTestLibs = [
