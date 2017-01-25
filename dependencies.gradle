@@ -11,7 +11,7 @@ ext {
 }
 
 ext.plugin = [
-        gradleBuildTools       : 'com.android.tools.build:gradle:2.2.3',
+        gradleBuildTools       : 'com.android.tools.build:gradle:2.3.0-beta2',
         gradleRetroLambda      : 'me.tatarka:gradle-retrolambda:3.4.0',
         lombok                 : 'me.tatarka.retrolambda.projectlombok:lombok.ast:0.2.3.a2',
         androidApt             : 'com.neenbedankt.gradle.plugins:android-apt:1.8',
